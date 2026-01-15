@@ -1,0 +1,31 @@
+{
+  "name": "agente-data-to-isnight",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/core": "^1.1.11",
+    "@langchain/langgraph": "^1.0.7",
+    "@langchain/openai": "^1.2.1",
+    "@langchain/textsplitters": "^1.0.1",
+    "arquero": "^8.0.3",
+    "axios": "^1.13.2",
+    "csv-parse": "^6.1.0",
+    "dotenv": "^17.2.3",
+    "langchain-core": "^0.0.4",
+    "npx": "^10.2.2",
+    "pdf-parse": "^2.4.5",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
